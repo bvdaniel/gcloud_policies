@@ -1,3 +1,6 @@
+# Description
+# Create an alerting policy which divides the number of 500 errors by the total number of responses, then triggers when the 500 errors exceed 1 percent. 
+
 {
     "displayName": "HTTP error count exceeds 1 percent for App Engine apps",
     "combiner": "OR",
